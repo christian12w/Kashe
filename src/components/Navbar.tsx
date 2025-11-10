@@ -15,11 +15,11 @@ export const Navbar = () => {
               className="h-14 w-auto" // Slightly reduced size for better balance
             />
             <div className="ml-3">
-              {/* Added title with specific colors - the S in KASHE is orange */}
+              {/* Updated title with Kashe in blue and Investments in orange */}
               <div className="text-xl font-bold">
-                <span className="text-blue-900">KA</span>
-                <span className="text-orange-500">S</span>
-                <span className="text-blue-900">HE INVESTMENTS LIMITED</span>
+                <span className="text-blue-900">KASHE</span>
+                <span className="text-orange-500"> INVESTMENTS</span>
+                <span className="text-blue-900"> LIMITED</span>
               </div>
               {/* Updated slogan with orange background, white text (not bold), centered, capital letters */}
               <div className="bg-orange-500 text-white text-center uppercase text-xs px-2 py-1 mt-1 rounded">
